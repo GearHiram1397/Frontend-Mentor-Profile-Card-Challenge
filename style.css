@@ -1,0 +1,95 @@
+body {
+  background-color: #19a2ae;
+  background-image: url("images/bg-pattern-top.svg");
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+.card-container {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 1px 1px gray;
+}
+
+.card-banner {
+  flex: 1;
+  box-shadow: 1px 1px grey;
+}
+
+.card-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.card-stats {
+  flex: 0.7;
+  display: flex;
+}
+
+.categorie {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.profile {
+  margin-top: -80px;
+}
+
+.card-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.name,
+.number,
+.type,
+.location,
+.age {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.type,
+.location,
+.age {
+  font-weight: 400;
+  font-size: small;
+  color: grey;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.location {
+  font-size: 17px;
+  padding-top: 15px;
+}
+
+.name,
+.age {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding-left: 8px;
+}
